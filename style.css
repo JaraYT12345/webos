@@ -1,0 +1,61 @@
+
+.barra-navegacion {
+    background-color: #333; 
+    padding: 10px 0; 
+    
+}
+
+.barra-navegacion ul {
+    list-style-type: none; 
+    text-align: center; 
+}
+
+.barra-navegacion ul li {
+    display: inline; 
+    margin: 0 10px; 
+}
+
+.barra-navegacion ul li a {
+    text-decoration: none; 
+    color: white; 
+    padding: 5px 10px; 
+    transition: background-color 0.3s; 
+}
+
+.barra-navegacion ul li a:hover {
+    background-color: #555;     }
+
+
+.contenido-principal {
+    text-align: center; 
+    padding: 20px; 
+    font-size: 18px; 
+    line-height: 1.6; } 
+
+
+
+
+
+.contenedor {
+    display: flex; 
+    max-width: 1200px; 
+    margin: 0 auto; 
+}
+
+
+.columna {
+    flex: 1; 
+    padding: 20px; 
+}
+
+.columna img {
+    max-width: 100%;
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+.final{
+    text-align: center;
+}
+

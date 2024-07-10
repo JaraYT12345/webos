@@ -1,0 +1,124 @@
+.huevos{
+    text-align: center;
+    color: black;
+}
+
+
+.barra-navegacion {
+    background-color: #333; 
+    padding: 10px 0; 
+    
+}
+
+.barra-navegacion ul {
+    list-style-type: none; 
+    text-align: center; 
+}
+
+.barra-navegacion ul li {
+    display: inline; 
+    margin: 0 10px; 
+}
+
+.barra-navegacion ul li a {
+    text-decoration: none; 
+    color: white; 
+    padding: 5px 10px; 
+    transition: background-color 0.3s; 
+}
+
+.barra-navegacion ul li a:hover {
+    background-color: #555;     }
+
+
+
+
+    
+
+.producto {
+    width: 200px; /* Ancho del contenedor del producto */
+    padding: 10px; /* Espacio alrededor del producto */
+    border: 1px solid #ccc; /* Borde del contenedor */
+    text-align: center; /* Centrar el contenido */
+    margin: 20px; /* Margen exterior */
+    display: inline-block; /* Para que los productos se muestren en línea */
+}
+
+/* Estilo para la imagen del producto */
+.producto .imagen {
+    width: 100px; /* Tamaño de la imagen */
+    height: 100px; /* Tamaño de la imagen */
+    overflow: hidden; /* Ocultar cualquier parte de la imagen que desborde */
+    margin: 0 auto 10px; /* Margen inferior para separar la imagen del texto */
+}
+
+.producto .imagen img {
+    width: 100%; /* Para que la imagen ocupe todo el espacio disponible */
+    height: auto; /* Ajustar la altura automáticamente */
+    display: block; /* Mostrar la imagen como bloque */
+}
+
+/* Estilos para el botón */
+.producto button {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color de texto del botón */
+    padding: 10px 20px; /* Relleno del botón */
+    border: none; /* Quitar borde del botón */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.producto button:hover {
+    background-color: #45a049; /* Cambiar color de fondo al pasar el ratón */
+}
+
+
+
+
+
+/* huevos del al medio */
+
+/* Estilo para el contenedor principal */
+.contenedor {
+    display: flex; /* Utilizar flexbox para centrar vertical y horizontalmente */
+    justify-content: center; /* Centrar horizontalmente */
+    align-items: center; /* Centrar verticalmente */
+    height: 100vh; /* Altura completa de la ventana */
+}
+
+/* Estilo para el contenedor del producto */
+.producto {
+    width: 200px; /* Ancho del contenedor del producto */
+    padding: 10px; /* Espacio alrededor del producto */
+    border: 1px solid #ccc; /* Borde del contenedor */
+    text-align: center; /* Centrar el contenido */
+}
+
+/* Estilo para la imagen del producto */
+.producto .imagen {
+    width: 100px; /* Tamaño de la imagen */
+    height: 100px; /* Tamaño de la imagen */
+    overflow: hidden; /* Ocultar cualquier parte de la imagen que desborde */
+    margin: 0 auto 10px; /* Margen inferior para separar la imagen del texto */
+}
+
+.producto .imagen img {
+    width: 100%; /* Para que la imagen ocupe todo el espacio disponible */
+    height: auto; /* Ajustar la altura automáticamente */
+    display: block; /* Mostrar la imagen como bloque */
+}
+
+/* Estilos para el botón */
+.producto button {
+    background-color: #4CAF50; /* Color de fondo del botón */
+    color: white; /* Color de texto del botón */
+    padding: 10px 20px; /* Relleno del botón */
+    border: none; /* Quitar borde del botón */
+    cursor: pointer; /* Cambiar el cursor al pasar el ratón */
+    transition: background-color 0.3s; /* Transición suave del color de fondo */
+}
+
+.producto button:hover {
+    background-color: #45a049; /* Cambiar color de fondo al pasar el ratón */
+}
+
